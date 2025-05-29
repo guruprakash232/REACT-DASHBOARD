@@ -1,0 +1,84 @@
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+  height: 94dvh;
+  background-color: #f8f9fa; 
+  padding: 1rem;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+ border-radius: 20px;
+ height:705px;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px;
+  color: #27374d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.logo-icon {
+  font-size: 1.8rem;
+  color: #1e3b64;
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.menu--list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0 10px;
+}
+
+.menu--list .item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 12px 15px;
+  transition: all 0.3s ease-in-out;
+  color: #162a43;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.menu--list .item .icon {
+  font-size: 1.3rem;
+  min-width: 24px;
+}
+
+.menu--list .item:hover {
+  background-color: #1e3b64;
+  color: #ffffff;
+}
+
+
+.menu--list .item.active {
+  background-color: #1e3b64;
+  color: #ffffff;
+}
+
+
+.menu--list .item:last-child {
+  margin-top: auto; 
+  color: #dc3545; 
+}
+
+.menu--list .item:last-child:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+
